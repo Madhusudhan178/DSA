@@ -11,6 +11,7 @@ int main()
 
      pair<int,int> arr[]={{1,2},{4,5},{5,6}};
      cout<<arr[0].first<<arr[1].second;
+     
 
      return 0;
 }
