@@ -3,7 +3,16 @@ using namespace std;
 
 int main()
 {
-     
+     list<int>ls;
+     ls.push_back(5);
+     ls.push_front(4);
+     for(auto it:ls)
+     {
+          cout<<it<<endl;
+     }
+     //Deque
+     //stack-LIFO
+     //queue-FIFO
 
      return 0;
 }

@@ -38,9 +38,9 @@ int main()
      //{10,20,12,23}
      arr.erase(arr.begin()+1);
      //{10,20,12,23,25}
-     arr.erase(arr.begin()+2;v.begin+4)//{10,20,35}[start,end]
+     arr.erase(arr.begin()+2,v.begin()+4);//{10,20,35}[start,end]
 
-     //insert
+     //insert             
      vector<int>v(2,100);//{100,100}
      v.insert(v.begin(),300);//{300,100,100}
      v.insert(v.begin()+1,2,10);//{300,10,10,100,100}
