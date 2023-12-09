@@ -13,6 +13,12 @@ int main()
      //Deque
      //stack-LIFO
      //queue-FIFO
+     //priority queue
+     //set
+     //multiset,unordered set
+
+     //MAP
+     
 
      return 0;
 }
