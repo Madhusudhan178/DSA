@@ -17,3 +17,12 @@ public:
         return (reversed == x);
     }
 };
+//program for a palindrome string
+//This is a pseudo code
+// f(i)
+// {
+//     if(i>=n/2)return true;
+//     if(s[i]!=s[n-i-1])
+//     return false;
+//     return f(i+1)
+// }
