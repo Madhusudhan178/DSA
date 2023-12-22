@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
      //Declaring the vectors
+
      vector<int>v;
      v.push_back(10);
      v.emplace_back(15);
