@@ -1,26 +1,39 @@
 #include<bits/stdc++.h>
 using namespace std;
-int fun(int number,int a[])
+
+int fun(int number,int arr[])
 {
      int counter=0;
-     for(int i;i<5,i++)
+     for(int i;i<5;i++)
      {
-          if(a[i]==number)
-          {
+          if(arr[i]==number)
                counter++;
-          }
      }
-
      return counter;
 }
 int main()
 {
      //HOW MANY IT APPEARS an ELEMENT BRUTE FORCE
-     int number;
+     int n;
      cout<<"ENTER THE value :"<<endl;
-     cin>>number;
-     int arr[5]={1,2,1,3,2};
-     cout<<"IT apperars "<<fun(number,arr[5])<<"int the given array"<<endl;s
+     cin>>n;
+     int arr[n];
+     for(int i=0;i<n;i++)
+     {
+          cin>>arr[i];
+     }
+
+
+     int hash[13]={0};
+     for(int i=0;i<n;)
+     int q;
+     cin>>q;
+     while(q--)
+     {
+          int number;
+          cin>>number;
+          //fetch
+     }
 
 
 
