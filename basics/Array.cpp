@@ -27,7 +27,7 @@ int main()
           cout << third[i] << " " << endl;
      }
      int size;
-     int array[size];
+     //int array[size];
      cout<<"Enter the size of an array"<<endl;
      cin>>size;
 
