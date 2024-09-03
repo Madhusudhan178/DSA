@@ -33,7 +33,7 @@ int main()
 
      for(int i=0;i<size;i++)
      {
-          cout<<array[i]<<" ";
+          //cout<<array[i]<<" ";
      }
      printArray(arr, 15);
 
